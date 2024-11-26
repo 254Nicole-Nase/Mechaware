@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "458053913601",
+    "project_id": "mechaware-25c29",
+    "storage_bucket": "mechaware-25c29.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458053913601:android:4e70849e76f0ae98a14400",
+        "android_client_info": {
+          "package_name": "com.example.mechaware"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpX7TIMSBcb6WqrPqPyb2kXPeZPxynYB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
