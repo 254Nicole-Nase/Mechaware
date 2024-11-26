@@ -19,9 +19,9 @@ Mechaware is a marketplace app designed to allow car owners, mechanics, and busi
 
 Below are some screenshots of the key pages in the app:
 
-| SCREEN SPLASH                     | SCREEN LOGIN                    | SCREEN REGISTER                | SCREEN HOME                  | PRODUCT DETAILS                | SEARCH SCREEN               | SCREEN CART                  | SCREEN UPLOAD                   | SCREEN PROFILE                  |
-|-----------------------------------|---------------------------------|--------------------------------|------------------------------|--------------------------------|-----------------------------|------------------------------|---------------------------------|---------------------------------|
-| ![](/screen/splash_screen.png)    | ![](/screen/login.png)          | ![](/screen/register.png)      | ![](/screen/home.png)        | ![](/screen/detail.png)        | ![](/screen/search.png)     | ![](/screen/cart.png)        | ![](/screen/upload.png)         | ![](/screen/profile.png)        |
+| SCREEN SPLASH                  | SCREEN LOGIN           | SCREEN REGISTER           | SCREEN HOME           | PRODUCT DETAILS         | SEARCH SCREEN           | SCREEN CART           | SCREEN UPLOAD           | SCREEN PROFILE           |
+|--------------------------------|------------------------|---------------------------|-----------------------|-------------------------|-------------------------|-----------------------|-------------------------|--------------------------|
+| ![](/screen/splash_screen.jpg) | ![](/screen/login.jpg) | ![](/screen/register.jpg) | ![](/screen/home.jpg) | ![](/screen/detail.jpg) | ![](/screen/search.jpg) | ![](/screen/cart.jpg) | ![](/screen/upload.jpg) | ![](/screen/profile.jpg) |
 
 
 ---
