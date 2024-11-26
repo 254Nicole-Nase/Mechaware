@@ -19,9 +19,9 @@ Mechaware is a marketplace app designed to allow car owners, mechanics, and busi
 
 Below are some screenshots of the key pages in the app:
 
-| SCREEN SPLASH                  | SCREEN LOGIN           | SCREEN REGISTER           | SCREEN HOME           | PRODUCT DETAILS         | SEARCH SCREEN           | SCREEN CART           | SCREEN UPLOAD           | SCREEN PROFILE           |
-|--------------------------------|------------------------|---------------------------|-----------------------|-------------------------|-------------------------|-----------------------|-------------------------|--------------------------|
-| ![](/screen/splash_screen.jpg) | ![](/screen/login.jpg) | ![](/screen/register.jpg) | ![](/screen/home.jpg) | ![](/screen/detail.jpg) | ![](/screen/search.jpg) | ![](/screen/cart.jpg) | ![](/screen/upload.jpg) | ![](/screen/profile.jpg) |
+| SCREEN SPLASH                  | SCREEN LOGIN           | SCREEN REGISTER           | SCREEN HOME           | PRODUCT DETAILS         | SEARCH SCREEN           | SCREEN CART           | SCREEN PROFILE           |
+|--------------------------------|------------------------|---------------------------|-----------------------|-------------------------|-------------------------|-----------------------|--------------------------|
+| ![](/screen/splash_screen.jpg) | ![](/screen/login.jpg) | ![](/screen/register.jpg) | ![](/screen/home.jpg) | ![](/screen/detail.jpg) | ![](/screen/search.jpg) | ![](/screen/cart.jpg) | ![](/screen/profile.jpg) |
 
 
 ---
@@ -55,7 +55,7 @@ cd mechaware
 3. Click the **Run** button (green play icon) to build and launch the app on your device.
 4. Wait for the app to install and open on your device. You can now test the functionality of the app.
 
-### 5. (Optional) Add Firebase Configuration
+### 5. Add Firebase Configuration
 
 1. Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
 2. Add your Android app to the Firebase project and download the `google-services.json` configuration file.

@@ -11,30 +11,26 @@ import com.example.mechaware.ui.*
 
 @Composable
 fun AppNavigation(navController: NavHostController, modifier: Modifier = Modifier) {
-    NavHost(navController = navController, startDestination = "splash") {
-        composable("splash") { SplashScreen(navController) }
-        composable("login") { LoginScreen(navController) }
-        composable("home") { HomeScreen(navController) }
+    NavHost(navController = navController, startDestination = Routes.SPLASH) {
+        composable(Routes.SPLASH) { SplashScreen(navController) }
+        composable(Routes.LOGIN) { LoginScreen(navController) }
+        composable(Routes.HOME) { HomeScreen(navController) }
+        composable(Routes.SEARCH) { SearchScreen(navController, query = "") }
+        composable(Routes.FEEDBACK) { FeedbackScreen() }
+        composable(Routes.FORUM) { ForumPlaceholderScreen() }
+        composable(Routes.PROFILE) { ProfileScreen(navController) }
+        composable(Routes.CART) { CartScreen(navController) }
+        composable(Routes.REGISTER) { RegisterScreen(navController) }
 
-        // Bottom Navigation Bar Screens
-        composable("search") { SearchScreen(navController) }
-        composable("feedback") { FeedbackScreen() }
-        composable("forum") { ForumPlaceholderScreen() }
-        composable("profile") { ProfileScreen(navController) } // Profile implementation
-        composable("cart") { CartScreen(navController) }
-
-        // Define product_details route with a productId argument
+        // Pass productId as argument for ProductDetailsScreen
         composable(
             route = "product_details/{productId}",
             arguments = listOf(navArgument("productId") { type = NavType.StringType })
         ) { backStackEntry ->
             val productId = backStackEntry.arguments?.getString("productId")
-            ProductDetailsScreen(productId = productId) // Pass the productId
+            if (productId != null) {
+                ProductDetailsScreen(productId = productId, navController = navController)
+            }
         }
-
-        composable("register") { RegisterScreen(navController) }
     }
 }
-
-
-
